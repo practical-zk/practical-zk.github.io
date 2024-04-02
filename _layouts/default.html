@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png" style="width: 200%">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -49,7 +49,7 @@ ga('send', 'pageview');
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"">
     </a>
     <!-- End Logo -->
 
@@ -68,27 +68,22 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">ZKPs in the Real World</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about">Blog</a>
+                </li> -->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/notable">Notable Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/contribute">Contribute!</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about">About us</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -126,7 +121,7 @@ ga('send', 'pageview');
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
-<div class="alertbar">
+<!-- <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
@@ -139,7 +134,7 @@ ga('send', 'pageview');
 </div>
 {% endif %}
     
-</div>
+</div> -->
 
 <!-- Categories Jumbotron
 ================================================== -->
@@ -172,7 +167,7 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}. From <a href="https://aceslab.org">ACES Lab</a>.
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net

@@ -1,35 +1,24 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About Us
 permalink: /about
-comments: true
+comments: false
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+We built this website to act as a crowdsourced pool of knowledge of how ZKPs are being integrated into the real world. Alongside this, we wanted to provide developers and researchers a platform to advertise their papers and products. This website was built by Nojan Sheybani and Farinaz Koushanfar at the University of California, San Diego.
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
-
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
-
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
-
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
-
+<div class="row justify-content-between text-center center">
+<div class="col-md-6 center text-cetner"> 
+<img src="assets/images/nojan.png" style="width: 100%; max-width: 300px; height: auto;">
+<br/>
+<a target="_blank" href="https://nojansheybani.github.io"> Nojan Sheybani </a>
+<p> University of California, San Diego </p>
 </div>
 
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
+<div class="col-md-6 text-center">
+<img src="assets/images/farinaz.png" style="width: 100%; max-width: 300px; height: auto;">
+<br/>
+<a target="_blank" href="https://farinaz.eng.ucsd.edu/home"> Farinaz Koushanfar </a>
+<p> University of California, San Diego </p>
 </div>
 </div>
