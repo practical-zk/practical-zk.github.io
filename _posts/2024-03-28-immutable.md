@@ -18,5 +18,5 @@ This ZK-Rollup solution offers significant advantages for all participants in th
 Immutable X represents a significant step forward in scaling NFT transactions on Ethereum. Its innovative approach unlocks the full potential of NFTs by facilitating faster, more cost-effective, and secure trading experiences.
 
 Links:
-- <https://www.immutable.com/>
-- <https://github.com/immutable/imx-core-sdk>
+- [Homepage](https://www.immutable.com/){:target="_blank"}
+- [Github](https://github.com/immutable/imx-core-sdk){:target="_blank"}
