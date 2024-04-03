@@ -5,7 +5,7 @@ permalink: /contribute
 comments: false
 ---
 
-We invite everyone to contribute to this website by submitting a pull request [here](https://github.com){:target="_blank"}. After careful review, all accepted changes will be merged into the main repository. Please ensure all PRs are built using the following steps:
+We invite everyone to contribute to this website by submitting a pull request [here](https://github.com/practical-zk/practical-zk.github.io){:target="_blank"}. After careful review, all accepted changes will be merged into the main repository. Please ensure all PRs are built using the following steps:
 
 ###### ZKPs in the Real World
 
